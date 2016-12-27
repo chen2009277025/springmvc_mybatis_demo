@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/decorators">
+	<excludes>
+		<pattern>/*.ajax</pattern>
+		<pattern>/*.jsp</pattern>
+		<pattern>/static/*</pattern>
+		<pattern>/logic/calculate</pattern>
+		<pattern>/logic/calculate/result</pattern>
+		<pattern>/logic/calculate/effect</pattern>
+		<pattern>/failover/recover</pattern>
+		<pattern>/error</pattern>
+		<pattern>/test/*</pattern>
+
+	</excludes>
+	
+	<decorator name="waimai" page="common.ftl">
+		<pattern>/*</pattern>
+	</decorator>
+</decorators>
